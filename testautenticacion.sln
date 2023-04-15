@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testautenticacion", "testautenticacion\testautenticacion.csproj", "{88081A05-06BF-42FE-B7BE-1B89B5A206D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilidad", "Utilidad\Utilidad.csproj", "{27B562D1-D6AD-4B76-AE84-6E6B0069777A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88081A05-06BF-42FE-B7BE-1B89B5A206D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88081A05-06BF-42FE-B7BE-1B89B5A206D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88081A05-06BF-42FE-B7BE-1B89B5A206D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88081A05-06BF-42FE-B7BE-1B89B5A206D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B562D1-D6AD-4B76-AE84-6E6B0069777A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B562D1-D6AD-4B76-AE84-6E6B0069777A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B562D1-D6AD-4B76-AE84-6E6B0069777A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B562D1-D6AD-4B76-AE84-6E6B0069777A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CBD2760-10E8-4062-B6C8-367FA687A96E}
+	EndGlobalSection
+EndGlobal

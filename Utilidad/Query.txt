@@ -1,0 +1,33 @@
+﻿
+
+CREATE DATABASE autenticacion
+
+go
+
+use autenticacion
+
+go
+
+create table ROL(
+IdRol int primary key,
+Descripcion varchar(50)
+)
+
+go
+
+insert into ROL(IdRol,Descripcion) values(1,'Administrador')
+insert into ROL(IdRol,Descripcion) values(2,'Empleado')
+
+go
+
+create table USUARIOS(
+Nombres varchar(50),
+Correo varchar(50),
+Clave varchar(50),
+IdRol int references ROL(IdRol)
+)
+
+insert into USUARIOS(Nombres,Correo,Clave,IdRol) values('Jose','js@gmail.com','123',1)
+insert into USUARIOS(Nombres,Correo,Clave,IdRol) values('Albert','ab@gmail.com','456',2)
+
+select Nombres,Correo,Clave,IdRol from USUARIOS where Correo = and Clave =
